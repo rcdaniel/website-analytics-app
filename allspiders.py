@@ -74,7 +74,6 @@ def prueba():
     directoriesToVisit = [filename for filename in os.listdir('.') if filename.startswith("scrapy_")]
     stime = "2018-08-15T00:25:51.131"
     searchV = "Audi"
-    #dbchecker.findAll()
 
     for directory in directoriesToVisit:
         print(directory)
@@ -109,11 +108,7 @@ def caca():
             if(dbchecker.itemExists(directory,actualtime,searchParameter)):
                 print('\n')
                 print(directory)
-                print("ENCONTRADO JAJA")
-                print('\n')
-                    #directoriesToVisit.remove(directory)
-                #else:
-                #    time.sleep(60)
+
 
 def main():
 
